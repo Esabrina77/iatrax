@@ -1,7 +1,7 @@
 # iatrax-vue
 # Projet d'Inscription à iatrax
 
-Ce projet est une application Vue.js permettant l'inscription et la connexion des utilisateurs avec des fonctionnalités comme l'acceptation de la politique de confidentialité et la souscription à une newsletter.
+Ce projet est une application Vue.js.
 
 ## Table des matières
 
@@ -25,7 +25,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 1. Clonez le repository du projet :
 
     ```bash
-    git clone https://github.com/votre-utilisateur/nom-du-repo.git
+    git clone https://github.com/Esabrina77/iatrax.git
     ```
 
 2. Accédez au dossier du projet :
@@ -52,3 +52,8 @@ Pour lancer l'application en mode développement, utilisez la commande suivante 
 
 ```bash
 npm run serve
+```
+
+## Lancement
+
+Ce `README.md` fournit une vue d'ensemble complète de votre projet, y compris les étapes d'installation, de lancement, et d'utilisation, ainsi que des instructions pour contribuer. Assurez-vous de remplacer `https://github.com/Esabrina77/iatrax.git` par l'URL réelle de votre repository GitHub.
