@@ -56,4 +56,4 @@ npm run serve
 
 ## Lancement
 
-Ce `README.md` fournit une vue d'ensemble complète de votre projet, y compris les étapes d'installation, de lancement, et d'utilisation, ainsi que des instructions pour contribuer. Assurez-vous de remplacer `https://github.com/Esabrina77/iatrax.git` par l'URL réelle de votre repository GitHub.
+Ce `README.md` fournit une vue d'ensemble complète de votre projet, y compris les étapes d'installation, de lancement, et d'utilisation, ainsi que des instructions pour contribuer.
