@@ -1,0 +1,27 @@
+.form-signup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    min-height: px;
+    // background-color: brown;
+    max-width: 90%;
+    scrollbar-width: none;
+    
+}
+
+.submit-btn{
+    background-color: #222222;
+    color: #fff;
+    border: none;
+    width: 534px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #e0e0e0;
+        color: #3d3d3d;
+    }
+}
+
