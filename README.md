@@ -54,6 +54,6 @@ Pour lancer l'application en mode développement, utilisez la commande suivante 
 npm run serve
 ```
 
-## Lancement
+## Licence
 
 Ce `README.md` fournit une vue d'ensemble complète de votre projet, y compris les étapes d'installation, de lancement, et d'utilisation, ainsi que des instructions pour contribuer.

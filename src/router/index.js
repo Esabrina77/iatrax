@@ -1,10 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Login from '@/views/Login/Login.vue'
-import Signup from '@/views/Signup/Signup.vue'
-import ForgotPassword from '@/views/ForgotPassword/ForgotPassword.vue'
-import Contact from '@/views/Contact/Contact.vue'
+//site vitrine
+import Contact from '@/views/SiteVitrine/Contact/Contact.vue'
+import Home from '@/views/SiteVitrine/Home/Home.vue'
+//extranet
+import Login from '@/views/Extranet/Login/Login.vue'
+import Signup from '@/views/Extranet/Signup/Signup.vue'
+import ForgotPassword from '@/views/Extranet/ForgotPassword/ForgotPassword.vue'
 
 const routes = [
+  //site vitrine
+{
+  path: '/',
+  name: 'Home',
+  component: Home
+},
+
+
+
+  //extranet
   {
     path: '/login',
     name: 'Login',
@@ -25,10 +38,7 @@ const routes = [
     name: 'Contact',
     component: Contact
   },
-  // {
-  //   path: '*',
-  //   redirect: '/login'
-  // },
+
 ]
 
 const router = createRouter({
