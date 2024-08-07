@@ -11,7 +11,9 @@
     <li class="nav-item"><a href="/custom">Sur mesure</a></li>
   </ul>
   <div class="nav-icons">
-    <img src="@/assets/logo/VectoruserIcon.png" alt="User Icon" class="icon">
+    <router-link class="forgot-pass" to="/login">
+    <img src="@/assets/icons/VectoruserIcon.png" alt="User Icon" class="icon">
+    </router-link>
     <div class="language-selector">
       fr <span class="arrow">▼</span>
     </div>
@@ -39,7 +41,7 @@ export default {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  background-color: #d9d9d9ab; /* couleur gris clair */
+  background-color: #d9d9d9c5; /* couleur gris clair */
   border-radius:  30px;
   font-size: 12px;
   overflow: hidden;
@@ -76,11 +78,13 @@ export default {
 .icon {
   width: 20px; /* ajustez la taille de l'icône si nécessaire */
   height: 20px;
+  cursor: pointer;
 }
 
 .language-selector {
   display: flex;
   align-items: center;
+  cursor: pointer;
   gap: 5px;
 }
 

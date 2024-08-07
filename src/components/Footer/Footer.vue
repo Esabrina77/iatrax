@@ -50,7 +50,7 @@ export default {
   color: #fff;
   padding: 20px;
   display: flex;
-  height: 500px;
+  height:600px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
@@ -80,7 +80,13 @@ export default {
   margin: 0 0 10px;
 }
 .image-logo{
-  width: 100vw
+width: 100%;
+padding:0 20px;
+}
+.image-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 form {
   margin-bottom: 20px;

@@ -2,7 +2,7 @@
   <AuthLayout>
     <h2 class="title_page">S'inscrire à iatrax</h2>
     <div class="google-btn">
-      <img src="../../../assets/logo/GroupGoogle.png" alt="Google icon" />
+      <img src="@/assets/logo/GroupGoogle.png" alt="Google icon" />
       <FormButton label="S'inscrire avec Google" />
     </div>
     <div class="form-signup">
